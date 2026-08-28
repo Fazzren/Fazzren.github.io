@@ -196,17 +196,17 @@
 </header>
 
 <!--
-  DOSYA YAPISI:
-  index.html ile aynı klasörde "Site fotoğraf ve vidyolar" klasörü olmalı:
-    Site fotoğraf ve vidyolar/hero.mp4          -> hero arka plan videosu
-    Site fotoğraf ve vidyolar/marka-gorseli.png -> Hakkında görseli
-    Site fotoğraf ve vidyolar/proje-1..6.png    -> portföy kartları
+  DOSYA YAPISI (repoda, kök klasörde):
+  index.html ile aynı klasörde, klasörsüz, düz durmalı:
+    hero.mp4          -> hero arka plan videosu (H.264 sürümü!)
+    marka-gorseli.png -> Hakkında görseli
+    proje-1..6.png    -> portföy kartları
 -->
 
 <section class="hero">
   <div class="hero-fade-wrap" id="heroFadeWrap">
-    <video class="hero-video" autoplay muted loop playsinline poster="Site foto%C4%9Fraf%20ve%20vidyolar/marka-gorseli.png">
-      <source src="Site foto%C4%9Fraf%20ve%20vidyolar/hero.mp4" type="video/mp4">
+    <video class="hero-video" autoplay muted loop playsinline poster="marka-gorseli.png">
+      <source src="hero.mp4" type="video/mp4">
     </video>
     <div class="hero-video-fallback"></div>
     <div class="hero-overlay"></div>
@@ -230,7 +230,7 @@
 
 <section id="about">
   <div class="about-grid">
-    <div class="about-visual" style="background-image:url('Site%20foto%C4%9Fraf%20ve%20vidyolar/marka-gorseli.png');"></div>
+    <div class="about-visual" style="background-image:url('marka-gorseli.png');"></div>
     <div class="about-text">
       <h3>FAZZREN</h3>
       <p>7 yıldır Marvelous Designer ile 3D kıyafet tasarlıyorum. Tasarladığım kıyafetleri oyun karakterlerine ve CGI sahnelerine uyguluyorum.</p>
@@ -247,12 +247,12 @@
     <p>Marvelous Designer ile tasarlanan seçili çalışmalar.</p>
   </div>
   <div class="portfolio-grid">
-    <div class="portfolio-item"><span class="tag">Video</span><div class="fill" style="background-image:url('Site%20foto%C4%9Fraf%20ve%20vidyolar/proje-1.png');"></div></div>
-    <div class="portfolio-item"><span class="tag">Fotoğraf</span><div class="fill" style="background-image:url('Site%20foto%C4%9Fraf%20ve%20vidyolar/proje-2.png');"></div></div>
-    <div class="portfolio-item"><span class="tag">Video</span><div class="fill" style="background-image:url('Site%20foto%C4%9Fraf%20ve%20vidyolar/proje-3.png');"></div></div>
-    <div class="portfolio-item"><span class="tag">Fotoğraf</span><div class="fill" style="background-image:url('Site%20foto%C4%9Fraf%20ve%20vidyolar/proje-4.png');"></div></div>
-    <div class="portfolio-item"><span class="tag">Video</span><div class="fill" style="background-image:url('Site%20foto%C4%9Fraf%20ve%20vidyolar/proje-5.png');"></div></div>
-    <div class="portfolio-item"><span class="tag">Fotoğraf</span><div class="fill" style="background-image:url('Site%20foto%C4%9Fraf%20ve%20vidyolar/proje-6.png');"></div></div>
+    <div class="portfolio-item"><span class="tag">Video</span><div class="fill" style="background-image:url('proje-1.png');"></div></div>
+    <div class="portfolio-item"><span class="tag">Fotoğraf</span><div class="fill" style="background-image:url('proje-2.png');"></div></div>
+    <div class="portfolio-item"><span class="tag">Video</span><div class="fill" style="background-image:url('proje-3.png');"></div></div>
+    <div class="portfolio-item"><span class="tag">Fotoğraf</span><div class="fill" style="background-image:url('proje-4.png');"></div></div>
+    <div class="portfolio-item"><span class="tag">Video</span><div class="fill" style="background-image:url('proje-5.png');"></div></div>
+    <div class="portfolio-item"><span class="tag">Fotoğraf</span><div class="fill" style="background-image:url('proje-6.png');"></div></div>
   </div>
   <p class="portfolio-note">Gerçek görsel ve videolar eklendikçe bu alan güncellenecek.</p>
 </section>
